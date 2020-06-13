@@ -117,7 +117,7 @@ ol.listapublic a{
     text-decoration: none;
 }
 ol.listapublic a:hover{
-    background-color: rgb(9, 107, 172);
+    background-color: rgba(9, 107, 172,.9);
     color: rgb(0, 0, 0);
 }
 /*-------------------------------------PIE PÁGINA----------------------------------------*/
