@@ -6,7 +6,7 @@ body{
     background-color: rgb(0, 0, 0);
 }
 div{
-    background: url("../CV-Cristian-Valdivieso/imágenes/corredor.jpg") no-repeat;
+    background: url("imágenes/corredor.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -16,7 +16,7 @@ div{
 header#encabezado{
     border-bottom: 1px solid black;
     padding: 30px 30px 100px 30px;
-    background: url("../CV-Cristian-Valdivieso/imágenes/stdlogosinfondo.png") no-repeat 1100px 50px;
+    background: url("imágenes/stdlogosinfondo.png") no-repeat 1100px 50px;
     background-size: 200px;
     background-color: rgba(9, 107, 172,.3);
     box-shadow: 1px 1px 10px rgba(9, 107, 172,.2);
@@ -61,8 +61,8 @@ nav#menu li{
     border: 2px solid black;
     border-radius: 15px 50px;
     background-color: rgb(27, 25, 25);
-    padding: 15px;
-    margin: -2px;
+    padding: 10px;
+    margin-top: 10px;
     font-family: 'Libre Baskerville', serif;
     font-size: 10pt;
 }
@@ -88,11 +88,32 @@ section#cuerpo{
     padding: 30px;
     margin-right: 0px;
 }
-/*-------------------------------------IDIOMAS------------------------------------------*/
+/*----------------------------IDIOMAS NO MOSTRAOD---------------------------------------*/
 ul.idiomas{
+    display: none;
     font-family: 'Electrolize', sans-serif;
     line-height: 1.5em;
     color: white;
+}
+/*-------------------------------------IDIOMAS------------------------------------------*/
+table#idiomas{
+    font-family: 'Electrolize', sans-serif;
+    padding: 12px;
+    font-size: 15pt;
+    border: 2px solid white;
+    color: white;
+    border-spacing: 2px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: rgba(9, 107, 172,.3);
+}
+table#idiomas td{
+    border: 1px solid white;
+    padding: 15px; 
+}
+table#idiomas caption h2{
+    padding: 0px;
+    margin: 0px;
 }
 /*-------------------------------------LATERAL------------------------------------------*/
 aside#lateral{
