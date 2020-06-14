@@ -5,15 +5,86 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+/*-------------------------------------SECTION----------------------------------------*/
+section{
+    position: relative;
+    height: 600px;
+}
 header{
-    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
     padding: 30px 30px 100px 30px;
     background-color: rgba(119, 207, 230, 0.2);
 }
 h1{
     font-family: 'Audiowide', cursive;
     text-align: center;
+    margin-top: 60px;
+    font-size: 35pt;
+    color: white;
+    text-shadow: 3px 3px black;
 }
 figcaption{
+    color: white;
+    padding: 10px;
+    font-size: 10pt;
+    text-align: justify;
+}
+article.pos1{
+    /*margin-top: 170px;
+    margin-left: 80px;*/
+    box-shadow: 1px 1px 10px black;
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    width: 300px;
+    padding: 0px;
+}
+article.pos2{
+    /*margin-left: 530px;
+    margin-top: -330px;*/
+    box-shadow: 1px 1px 10px black;
+    position: absolute;
+    top: 170px;
+    left: 530px;
+    width: 300px;
+    padding: 0px;
+}
+article.pos3{
+    /*margin-left: 970px;
+    margin-top: -305px;*/
+    box-shadow: 1px 1px 10px black;
+    position: absolute;
+    top: 170px;
+    left: 970px;
+    width: 300px;
+    padding: 0px;
+}
+span{
+    display: block;
+    font-size: 10pt;
+    margin-top: 40px;
+    margin-right: -5px;
+    margin-bottom: 8px;
+    text-align: center;
+    float: right;
+    box-shadow: 1px 1px 10px black;
+    width: 85px;
+}
+/*-------------------------------------PIE PÁGINA----------------------------------------*/
+footer#piepagina{
+    clear: both;
+    color: white;
+    margin-top: 300px;
+}
+footer#piepagina p{
+    text-align: center;
+    text-decoration: none;
+}
+footer#piepagina a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer#piepagina a:hover{
+    background-color: rgb(9, 107, 172);
     color: white;
 }
