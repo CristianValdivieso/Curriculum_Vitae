@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body{
+    background: url("https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    border: 1px solid black;
+    padding: 30px 30px 100px 30px;
+    background-color: rgba(119, 207, 230, 0.2);
+}
+h1{
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+}
+figcaption{
+    color: white;
+}
