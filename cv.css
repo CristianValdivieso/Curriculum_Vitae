@@ -16,7 +16,6 @@ div{
 header#encabezado{
     border-bottom: 1px solid black;
     padding: 30px 30px 100px 30px;
-    background: url("imágenes/stdlogosinfondo.png") no-repeat 1100px 50px;
     background-size: 200px;
     background-color: rgba(9, 107, 172,.3);
     box-shadow: 1px 1px 10px rgba(9, 107, 172,.2);
@@ -41,6 +40,10 @@ img.foto{
     top: 50px;
     left: 50px;
     box-shadow: 1px 1px 10px white;
+}
+img#logo{
+    float: right;
+    margin-top: -130px;
 }
 p{
     font-family: 'Electrolize', sans-serif;
