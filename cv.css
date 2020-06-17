@@ -92,6 +92,17 @@ section#cuerpo{
     padding: 30px;
     margin-right: 0px;
 }
+/*----------------------------LISTA DE DEFINICIÓN---------------------------------------*/
+dt{
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+    text-align: justify;
+}
+dl{
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+    text-align: justify;
+}
 /*----------------------------IDIOMAS NO MOSTRAOD---------------------------------------*/
 ul.idiomas{
     display: none;
