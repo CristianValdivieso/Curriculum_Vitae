@@ -8,7 +8,7 @@ body{
 /*-------------------------------------SECTION----------------------------------------*/
 section{
     position: relative;
-    height: 600px;
+    height: 1000px;
 }
 header{
     box-shadow: 1px 1px 10px black;
@@ -29,6 +29,71 @@ figcaption{
     font-size: 10pt;
     text-align: justify;
 }
+
+/*---------------------------------------------IMÁGENES--------------------------------*/
+ul{
+    list-style: none;
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+ul li{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+ul li figcaption{
+    opacity: 0;
+    margin: 190px 5px 0px 5px;
+    box-shadow: 1px 1px 10px white;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px black;
+    font-weight: bold;
+    text-align: center;
+}
+ul li:hover{
+    -webkit-transform: scale(1.4);
+    transition: 1s;
+}
+ul li:hover figcaption{
+    opacity: 1;
+}
+ul li#foto1{
+    background: url("../imágenes/ecuador-colombia.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 410px 360px;
+}
+ul li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 300px 250px;
+}
+ul li#foto2{
+    background: url("../imágenes/eris.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 380px 350px;
+}
+ul li#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+ul li#foto3{
+    background: url("../imágenes/manifestaciones.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 550px 400px;
+}
+ul li#foto3:hover{
+    background-position: 0px 0px;
+    background-size: 350px 250px;
+}
+
+ul li#foto4
+ul li#foto5
+ul li#foto6
+
+/*---------------------------------------ELIMINAR--------------------------------------*/
 article.pos1{
     /*margin-top: 170px;
     margin-left: 80px;*/
@@ -59,7 +124,7 @@ article.pos3{
     width: 300px;
     padding: 0px;
 }
-span{
+span.subt{
     display: block;
     font-size: 10pt;
     margin-top: 40px;
